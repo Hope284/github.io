@@ -1,0 +1,47 @@
+{
+  "slug": "your-language-is-part-of-the-product",
+  "title": "If the AI does not understand your customer, the interface is not finished.",
+  "category": "African realities",
+  "excerpt": "Local relevance starts with the requests, expressions and corrections your customers actually use.",
+  "date": "2026-11-15",
+  "author": "Anzolo Kpazhi Hope",
+  "sections": [
+    {
+      "heading": "",
+      "paragraphs": [
+        "A customer sends a short message mixing English with a familiar local expression. Your assistant replies confidently, but it has misunderstood the request. Now you have to repair both the order and the conversation.",
+        "If your customers move naturally between languages, abbreviations and voice notes, you should test the assistant on that reality. A list of supported languages is a starting claim. It is not the same as evidence that the system understands your business."
+      ]
+    },
+    {
+      "heading": "Collect examples with care",
+      "paragraphs": [
+        "Start with a small, consented or synthetic set of typical requests. Include product nicknames, short messages, code-switching and requests with missing information. Remove identifiers and sensitive details. Involve people who understand both the language and the situation.",
+        "For each example, record what the customer means and which parts remain uncertain. You need a reference for evaluation, not just an impression that the response sounds natural."
+      ]
+    },
+    {
+      "heading": "Reward clarification",
+      "paragraphs": [
+        "Ask the assistant to show uncertainty when a product, quantity or delivery instruction is ambiguous. Give it a simple clarification route. A short question that prevents the wrong order may be more useful than an instant answer.",
+        "Where a human must take over, carry the original message and proposed interpretation into the handover. Do not make the customer repeat everything because the system lost context."
+      ]
+    },
+    {
+      "heading": "Evaluate the task, not just the words",
+      "paragraphs": [
+        "Measure whether the intended item, quantity and next action were understood. Have an appropriate speaker review meaning and tone. Test different expressions and conditions rather than relying on one successful phrase.",
+        "I care about this in the direction of DZEVA and ECHUKU’s practical AI work because adoption depends on people feeling understood. Earlier coverage of Falzz brought attention to local relevance. My current guidance is to turn that ambition into explicit tests, not assume it from a product description."
+      ]
+    },
+    {
+      "heading": "Make a narrow promise you can keep",
+      "paragraphs": [
+        "You may discover that the system works well for one type of enquiry and poorly for another. That is useful information. Limit the automatic route to what you have tested, and make the human route easy to reach.",
+        "Begin with the questions your team answers repeatedly. Improve that experience, record the difficult cases and expand carefully. Your customer does not need a claim that the assistant understands everything. They need their own request to be handled correctly."
+      ]
+    }
+  ],
+  "takeaway": "Write five realistic customer messages your team understands but a generic assistant might misunderstand. Use them as your first evaluation set.",
+  "media": "positive"
+}

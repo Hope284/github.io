@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hope284.github.io/github.io/sitemap.xml

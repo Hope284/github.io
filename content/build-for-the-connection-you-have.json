@@ -1,0 +1,47 @@
+{
+  "slug": "build-for-the-connection-you-have",
+  "title": "Your business should not lose its memory when the internet drops.",
+  "category": "African realities",
+  "excerpt": "A practical way to think about saved drafts, retries and reliable work when connectivity changes.",
+  "date": "2026-11-15",
+  "author": "Anzolo Kpazhi Hope",
+  "sections": [
+    {
+      "heading": "",
+      "paragraphs": [
+        "You finish entering an order. You press Save. The connection disappears. Now you face a small but important question: did the order go through? You press again because the customer is waiting. Later, two orders appear.",
+        "If you build or buy software for a business that works through unreliable connections, this is the kind of ordinary moment I want you to test. A beautiful screen is helpful. A truthful screen is essential."
+      ]
+    },
+    {
+      "heading": "Ask what “saved” really means",
+      "paragraphs": [
+        "A record saved on your phone is different from a record accepted by the server. Ask the system to make that difference visible. The worker should be able to distinguish a local draft, a queued request, an accepted order and a completed transaction.",
+        "Do not let an offline badge promise more than the application can do. Saving a form without a connection does not mean a remote AI model is running offline. Those are separate capabilities, and each needs its own test."
+      ]
+    },
+    {
+      "heading": "Give the action a stable identity",
+      "paragraphs": [
+        "Here is the solution I would design for repeated submissions: give one intended operation one identifier. If the same request arrives again, the server should retrieve the original outcome instead of creating another order. Engineers call this idempotency.",
+        "The identifier alone is not enough. If the same identifier arrives with different details, the system needs a defined conflict response. A customer changing a quantity is a revision; a device retrying the same request is a retry. Treating them as the same thing creates confusion."
+      ]
+    },
+    {
+      "heading": "Be honest about stale information",
+      "paragraphs": [
+        "A cached price list can help someone prepare a draft. It cannot guarantee that price or stock is still current when the order reaches the server. Recheck the authoritative information before committing the operation, and show the worker any difference that needs approval.",
+        "This is the operating reality behind my interest in practical African business systems. ECHUKU’s work needs to fit the day people actually have, including interruptions and handovers. Reliability belongs in the design brief from the beginning."
+      ]
+    },
+    {
+      "heading": "Test the uncomfortable cases",
+      "paragraphs": [
+        "Try disconnecting before submission, during submission and after acceptance. Close the app and reopen it. Retry a pending request. Ask whether the same result appears on the other device. Use synthetic information while you test.",
+        "You are looking for understandable recovery: no unexplained duplicates, no lost drafts and no false confirmation. Ask the builder to show you the failed connection and the recovery, not only the smooth demonstration. That gives you a better basis for deciding whether the system is ready for your team."
+      ]
+    }
+  ],
+  "takeaway": "Ask your software provider to demonstrate what happens when the network fails immediately after you press Save.",
+  "media": "vanguard"
+}

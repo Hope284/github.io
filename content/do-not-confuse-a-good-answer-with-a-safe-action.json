@@ -1,0 +1,47 @@
+{
+  "slug": "do-not-confuse-a-good-answer-with-a-safe-action",
+  "title": "A convincing AI answer is not permission to act.",
+  "category": "Engineering notes",
+  "excerpt": "Give an assistant a useful role without letting generated text decide who may change your business records.",
+  "date": "2026-11-15",
+  "author": "Anzolo Kpazhi Hope",
+  "sections": [
+    {
+      "heading": "",
+      "paragraphs": [
+        "Your assistant reads a message saying, “I have paid, please send my order.” It understands the sentence perfectly. Should it mark the payment as verified? No. Understanding the claim and verifying the event are separate jobs.",
+        "If you are adding AI to customer service, sales or operations, I want you to keep that distinction close. The quality of the conversation matters. So does the boundary between a suggestion and an action."
+      ]
+    },
+    {
+      "heading": "Let the model propose",
+      "paragraphs": [
+        "Use the model to extract a request, draft a response or recommend a next step. Keep its output structured enough for your application to validate. Missing information should remain missing until an authorised source supplies it.",
+        "The model should not invent a current price, decide a refund entitlement or treat an uploaded screenshot as independent proof of payment. Those decisions belong to defined sources and approval rules."
+      ]
+    },
+    {
+      "heading": "Let the application enforce",
+      "paragraphs": [
+        "Check the signed-in user, organisation, permitted operation and current record state on the server. Do those checks for every action. A sentence inside a customer message must not be able to widen permissions.",
+        "For consequential changes, show an approval preview with the affected record and proposed change. Record who approved it. Use stable operation identifiers for retries, and define what happens when the same request arrives more than once."
+      ]
+    },
+    {
+      "heading": "Look for failures before customers do",
+      "paragraphs": [
+        "Test an unauthorised user, an unavailable product, an ambiguous quantity, a duplicate submission and a model timeout. Include a customer message containing instructions to ignore the process. Treat that message as input data, not as a new rule for the system.",
+        "These are design recommendations, not a claim that a checklist proves complete security. Your exact workflow may require further review. What matters is that you evaluate the action path as carefully as you evaluate the answer."
+      ]
+    },
+    {
+      "heading": "Keep the human contribution visible",
+      "paragraphs": [
+        "The product work I pursue through ECHUKU asks how AI can help people complete useful work. A reliable system makes it possible to understand who decided, what evidence they used and what can be corrected.",
+        "Before you approve your next assistant deployment, ask for a demonstration of a rejected action. You should see the system refuse what the user is not allowed to do and explain the next safe step. That demonstration can tell you more than another perfectly worded answer."
+      ]
+    }
+  ],
+  "takeaway": "Choose one action your assistant must never authorise from a customer’s message alone. Make that boundary explicit and test it.",
+  "media": "dev"
+}

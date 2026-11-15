@@ -1,0 +1,8 @@
+'use strict';
+const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#main-nav');
+menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav.classList.toggle('open',open)});
+const search=document.querySelector('#article-search'),cards=[...document.querySelectorAll('#article-list .post-card')],filters=[...document.querySelectorAll('.filter')];let selected='All';
+function filterArticles(){const q=(search?.value||'').trim().toLowerCase();let n=0;cards.forEach(c=>{const show=(selected==='All'||c.dataset.category===selected)&&(!q||c.dataset.search.includes(q));c.hidden=!show;if(show)n++});const count=document.querySelector('#result-count');if(count)count.textContent=`${n} article${n===1?'':'s'} to explore`;const empty=document.querySelector('#no-results');if(empty)empty.hidden=n!==0}
+search?.addEventListener('input',filterArticles);filters.forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.filter;filters.forEach(x=>{const on=x===b;x.classList.toggle('selected',on);x.setAttribute('aria-pressed',String(on))});filterArticles()}));
+document.querySelector('.copy-link')?.addEventListener('click',async()=>{const s=document.querySelector('.copy-status');try{await navigator.clipboard.writeText(location.href);s.textContent='Link copied.'}catch{s.textContent='Copy the URL from your browser’s address bar.'}});
+const bar=document.querySelector('.reading-progress');if(bar){const update=()=>{const h=document.documentElement.scrollHeight-innerHeight;bar.style.width=(h>0?Math.min(100,scrollY/h*100):0)+'%'};addEventListener('scroll',update,{passive:true});update()}

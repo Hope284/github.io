@@ -1,0 +1,73 @@
+{
+  "slug": "your-ai-assistant-needs-current-business-information",
+  "title": "Your AI assistant is quoting an old policy. Here is how I would fix it.",
+  "category": "Business systems",
+  "excerpt": "Give every business answer an owner, an effective date and a clear retirement rule, so yesterday’s information does not become today’s promise.",
+  "date": "2026-11-20",
+  "author": "Anzolo Kpazhi Hope",
+  "media": "guardian",
+  "sections": [
+    {
+      "heading": "",
+      "paragraphs": [
+        "You changed your delivery arrangements, but your AI assistant is still promising customers the old service. The answer sounds helpful. It even matches a document you uploaded. Now you have to explain why your business cannot do what its own assistant said it would do.",
+        "If you run a small business in Nigeria or elsewhere in Africa and your information moves between WhatsApp messages, flyers and spreadsheets, I want you to inspect the information behind the answer. A clearer prompt may help, but someone also needs to decide which version of the business rules is current. Here is a practical way I would organise that work with you."
+      ]
+    },
+    {
+      "heading": "Start with the promise that keeps going wrong",
+      "paragraphs": [
+        "Imagine a fictional Lagos shop that previously offered same-day delivery in two areas. It now needs to confirm delivery availability before accepting an order. The old flyer remains in the assistant’s documents, while a newer instruction sits in a staff conversation. This is an illustrative example, not a client story.",
+        "Write the current approved answer in plain language: “Please tell us your delivery area. We will confirm availability and timing before you place the order.” Record who can approve that wording. Do not let a model decide that an old flyer outranks a newer policy simply because the flyer looks more official.",
+        "Choose one topic first: delivery coverage, opening hours or booking arrangements. Avoid mixing live stock, prices and individual customer records into this exercise. Those can require a current business-system lookup and different access controls."
+      ]
+    },
+    {
+      "heading": "Make a small information register",
+      "paragraphs": [
+        "You can start in an existing document or spreadsheet without buying another service. Give each approved answer a stable reference, a version number, an owner, an approval date, an effective date and a review deadline. Add a status such as draft, approved or retired. The approval date records a decision; the effective date says when the answer should start being used.",
+        "For the fictional shop, an entry might read: “Reference: DELIVERY-01; version: 2; owner: operations lead; effective: 20 November 2026; review by: 27 November 2026; status: approved; answer: availability and timing require confirmation.” These dates illustrate a review routine, not a universal weekly rule. Set the interval according to how quickly that information can change.",
+        "Keep the register limited to information intended for the assistant’s audience. A public service answer does not need customer phone numbers, staff records or private supplier terms. Give editing rights only to the people responsible for maintaining it."
+      ]
+    },
+    {
+      "heading": "Retire the old answer wherever it can return",
+      "paragraphs": [
+        "Publishing version 2 is only part of the change. Mark version 1 as retired, keep it separately for your internal history and remove it from the collection used to answer current questions. If a tool builds a searchable index from uploaded files, check that its searchable copies have also been replaced. Ask the person maintaining the tool to show you which version a new answer actually used.",
+        "For a manually operated workflow, attach only the current approved sheet when preparing a draft, then check the result before sending. For an integrated system, I would have the application filter the available sources by approval status, effective date and review deadline before the model receives them. A sentence telling the model to “use the latest information” should not carry that responsibility by itself.",
+        "Also check saved reply templates, website FAQs and earlier conversations. An ongoing chat may still contain the old promise even after the document changes. Test both a fresh conversation and a continuing one. If you cannot establish that the active information is current, pause automatic answers on that topic and route the question to a person."
+      ]
+    },
+    {
+      "heading": "Define what happens when the facts are uncertain",
+      "paragraphs": [
+        "An expired review deadline should trigger the response you have agreed in advance. For a delivery promise, I would require confirmation instead of allowing a guess. If two approved documents disagree, the assistant should flag the conflict for the named owner. The model should not combine two incompatible rules into a new policy.",
+        "A useful fallback is specific: “I need to confirm delivery availability for your area before giving you a time.” Tell the reader the next step, but promise a response time only if someone is actually responsible for meeting it.",
+        "NIST’s July 2024 Generative AI Profile recommends checking sources and citations in generated outputs during evaluation and ongoing monitoring, and verifying the provenance and grounding of relevant data. The reference is linked below. My information-register method is a practical suggestion for this business scenario, not a NIST certification or a guarantee that errors disappear."
+      ]
+    },
+    {
+      "heading": "Test a change, not just a successful answer",
+      "paragraphs": [
+        "Before using the revised answer with customers, make five fictional enquiries: one covered by the new policy, one quoting the old flyer, one about an area you have not listed, one asked after the review deadline and one presented with conflicting documents. Write the expected response for each before running the test.",
+        "For every result, record the question, answer, source reference and version, test date and whether a person had to intervene. Check the cited passage yourself. A reference can exist and still fail to support the promise in the reply. Any unsupported delivery commitment should stop automatic use of that topic until you correct the cause and repeat the affected checks.",
+        "Five examples are a starting check, not evidence of general reliability. Keep adding difficult cases as you encounter them, using fictionalised or properly authorised information. Recheck the affected questions whenever the policy or answering system changes."
+      ]
+    },
+    {
+      "heading": "Make maintenance part of the work",
+      "paragraphs": [
+        "This is the kind of operational clarity I pursue through ECHUKU. My KONTA ERP/POS project direction concerns understandable business records, while my DZEVA direction concerns useful AI workflows. Connecting those ideas means being clear about which system owns a fact and who may change it. I am describing a design approach here, not claiming that either project currently provides this complete workflow.",
+        "I appreciate The Guardian Nigeria’s earlier coverage of my business-adoption work through GlemVNT and Falzz. That historical report is linked below; it did not assess the information-maintenance method I am proposing in this article.",
+        "Today, take one answer your business gives repeatedly and ask: who owns it, when does it apply, and what happens when it stops being reliable? Put those decisions beside the answer. You will have a much clearer brief for your team and for any AI tool you introduce. If you are learning how to build these workflows, my free AI Career Guide and the free Anzolo Hope AI Fellowship invitation below are a place to continue."
+      ]
+    }
+  ],
+  "takeaway": "Choose one customer-facing policy. Record its owner, version, effective date and review deadline, then test whether an old document can still make your assistant give the wrong answer.",
+  "sources": [
+    {
+      "title": "NIST AI 600-1 — Generative Artificial Intelligence Profile (July 2024), MEASURE 2.5, actions MS-2.5-003 and MS-2.5-005",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    }
+  ]
+}

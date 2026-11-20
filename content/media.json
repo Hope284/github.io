@@ -1,8 +1,79 @@
 [
- {"id":"guardian","publisher":"The Guardian Nigeria","date":"2025-05-05","kind":"News feature","title":"Anzolo Kpazhi Hope: Leading Nigeria’s AI drive through GlemVNT","url":"https://guardian.ng/technology/tech/anzolo-kpazhi-hope-leading-nigerias-ai-drive-through-glemvnt/","summary":"David Meshioye’s feature connects my work through GlemVNT and Falzz with business adoption and technology education. I appreciate the attention it gives to making technology useful beyond a demonstration.","connection":"Today, I carry that practical focus into ECHUKU: understanding a business problem, designing the workflow and helping people use the system. This is my reflection on the coverage, not a claim that the newspaper assessed today’s products.","article":"before-you-buy-an-ai-tool"},
- {"id":"vanguard","publisher":"Vanguard","date":"2025-08-09","kind":"News feature","title":"Africa’s Digital Awakening and the Rise of Anzolo Kpazhi Hope","url":"https://www.vanguardngr.com/2025/08/africas-digital-awakening-and-the-rise-of-anzolo-kpazhi-hope/","summary":"I appreciate Vanguard making space for my story.","connection":"Read the original feature, then explore my current writing on building useful systems for African businesses.","article":"build-for-the-connection-you-have"},
- {"id":"thisday","publisher":"THISDAY","date":"2025-08-11","kind":"News feature","title":"Anzolo Kpazhi Hope: Leading a Continent to the Global Table with Indigenous Digital Tools","url":"https://www.thisdaylive.com/2025/08/11/anzolo-kpazhi-hope-leading-a-continent-to-the-global-table-with-indigenous-digital-tools/","summary":"THISDAY’s feature follows the role of collaboration in my earlier work through GlemVNT. It discusses business and education relationships, including the Meat Mill and TAKTAL.","connection":"I am grateful for coverage that gives people and adoption a place in the technology story. My continuing question at ECHUKU is how to turn an introduction or training session into a workflow somebody can use. The original report records its own time; it is not a current audit of each partnership.","article":"training-that-survives-monday-morning"},
- {"id":"positive","publisher":"PositiveNaija","date":"2025-07-19","kind":"Sponsored feature","title":"Anzolo Kpazhi Hope: Revolutionizing Africa’s AI with Falzz","url":"https://www.positivenaija.com/anzolo-kpazhi-hope-revolutionizing-africas-ai-with-falzz/","summary":"This sponsored feature introduces Falzz and the ambition to make AI useful in African contexts. The publisher identifies it as sponsored, and I preserve that distinction here.","connection":"I appreciate the space to explain the motivation behind the work. My current DZEVA direction continues the interest in accessible AI workflows. For a reader choosing a tool, the useful next question is whether it works reliably on your own tasks.","article":"your-language-is-part-of-the-product"},
- {"id":"dev","publisher":"DEV Community","date":"2025-05-30","kind":"Community commentary","title":"Falzz AI: A Bold African AI Platform Challenging ChatGPT, Gemini & Grok","url":"https://dev.to/moses_ayo_70b00bc213a4463/falzz-ai-a-bold-african-ai-platform-challenging-chatgpt-gemini-grok-32n3","summary":"Moses Olusayo shares his perspective on Falzz and building AI products from Lagos. It is encouraging to see fellow builders engage with the work.","connection":"This is community commentary, not a comparative benchmark. My engineering notes take that conversation further by asking what evidence you should require before trusting any AI workflow.","article":"do-not-confuse-a-good-answer-with-a-safe-action"},
- {"id":"dusk","publisher":"Duskriplez","date":"2026-10-03","kind":"Editorial assessment","title":"Anzolo Kpazhi Hope: Practical AI Engineering and Digital Transformation in Africa","url":"https://duskriplez.com/anzolo-kpazhi-hope/","summary":"The article recognises the practical connection between AI engineering, software, business systems and adoption. I appreciate that focus because it reflects the kind of problems I want my work to address.","connection":"Its 9.9/10 rating is the publisher’s assessment, not an independently audited industry ranking. Here, I invite you to examine the ideas, resources and public work behind my approach.","article":"human-judgement-in-the-age-of-ai"}
+  {
+    "id": "guardian",
+    "publisher": "The Guardian Nigeria",
+    "date": "2025-05-05",
+    "kind": "News feature",
+    "title": "Anzolo Kpazhi Hope: Leading Nigeria’s AI drive through GlemVNT",
+    "url": "https://guardian.ng/technology/tech/anzolo-kpazhi-hope-leading-nigerias-ai-drive-through-glemvnt/",
+    "summary": "David Meshioye’s feature connects my work through GlemVNT and Falzz with business adoption and technology education. I appreciate the attention it gives to making technology useful beyond a demonstration.",
+    "connection": "Today, I carry that practical focus into ECHUKU: understanding a business problem, designing the workflow and helping people use the system. This is my reflection on the coverage, not a claim that the newspaper assessed today’s products.",
+    "article": "before-you-buy-an-ai-tool"
+  },
+  {
+    "id": "vanguard",
+    "publisher": "Vanguard",
+    "date": "2025-08-09",
+    "kind": "News feature",
+    "title": "Africa’s Digital Awakening and the Rise of Anzolo Kpazhi Hope",
+    "url": "https://www.vanguardngr.com/2025/08/africas-digital-awakening-and-the-rise-of-anzolo-kpazhi-hope/",
+    "summary": "I appreciate Vanguard making space for my story.",
+    "connection": "Read the original feature, then explore my current writing on building useful systems for African businesses.",
+    "article": "build-for-the-connection-you-have"
+  },
+  {
+    "id": "thisday",
+    "publisher": "THISDAY",
+    "date": "2025-08-11",
+    "kind": "News feature",
+    "title": "Anzolo Kpazhi Hope: Leading a Continent to the Global Table with Indigenous Digital Tools",
+    "url": "https://www.thisdaylive.com/2025/08/11/anzolo-kpazhi-hope-leading-a-continent-to-the-global-table-with-indigenous-digital-tools/",
+    "summary": "THISDAY’s feature follows the role of collaboration in my earlier work through GlemVNT. It discusses business and education relationships, including the Meat Mill and TAKTAL.",
+    "connection": "I am grateful for coverage that gives people and adoption a place in the technology story. My continuing question at ECHUKU is how to turn an introduction or training session into a workflow somebody can use. The original report records its own time; it is not a current audit of each partnership.",
+    "article": "training-that-survives-monday-morning"
+  },
+  {
+    "id": "positive",
+    "publisher": "PositiveNaija",
+    "date": "2025-07-19",
+    "kind": "Sponsored feature",
+    "title": "Anzolo Kpazhi Hope: Revolutionizing Africa’s AI with Falzz",
+    "url": "https://www.positivenaija.com/anzolo-kpazhi-hope-revolutionizing-africas-ai-with-falzz/",
+    "summary": "This sponsored feature introduces Falzz and the ambition to make AI useful in African contexts. The publisher identifies it as sponsored, and I preserve that distinction here.",
+    "connection": "I appreciate the space to explain the motivation behind the work. My current DZEVA direction continues the interest in accessible AI workflows. For a reader choosing a tool, the useful next question is whether it works reliably on your own tasks.",
+    "article": "your-language-is-part-of-the-product"
+  },
+  {
+    "id": "dev",
+    "publisher": "DEV Community",
+    "date": "2025-05-30",
+    "kind": "Community commentary",
+    "title": "Falzz AI: A Bold African AI Platform Challenging ChatGPT, Gemini & Grok",
+    "url": "https://dev.to/moses_ayo_70b00bc213a4463/falzz-ai-a-bold-african-ai-platform-challenging-chatgpt-gemini-grok-32n3",
+    "summary": "Moses Olusayo shares his perspective on Falzz and building AI products from Lagos. It is encouraging to see fellow builders engage with the work.",
+    "connection": "This is community commentary, not a comparative benchmark. My engineering notes take that conversation further by asking what evidence you should require before trusting any AI workflow.",
+    "article": "do-not-confuse-a-good-answer-with-a-safe-action"
+  },
+  {
+    "id": "dusk",
+    "publisher": "Duskriplez",
+    "date": "2026-10-03",
+    "kind": "Editorial assessment",
+    "title": "Anzolo Kpazhi Hope: Practical AI Engineering and Digital Transformation in Africa",
+    "url": "https://duskriplez.com/anzolo-kpazhi-hope/",
+    "summary": "The article recognises the practical connection between AI engineering, software, business systems and adoption. I appreciate that focus because it reflects the kind of problems I want my work to address.",
+    "connection": "Its 9.9/10 rating is the publisher’s assessment, not an independently audited industry ranking. Here, I invite you to examine the ideas, resources and public work behind my approach.",
+    "article": "human-judgement-in-the-age-of-ai"
+  },
+  {
+    "id": "aflca",
+    "publisher": "Africa Future Leadership Conference & Awards",
+    "date": "2025-10-06",
+    "kind": "Organiser’s award announcement",
+    "title": "Anzolo Kpazhi Hope — Outstanding Entrepreneur of the Year, AFLCA 10.0",
+    "url": "https://www.instagram.com/p/DPd-2h6jGDP/",
+    "summary": "The organiser’s Instagram announcement names me as an award recipient and acknowledges my AI and digital-systems work through ECHUKU, GlemVNT and Falzz. The ceremony was scheduled for 25 October 2025 in Lagos.",
+    "connection": "I treasure this recognition of entrepreneurship. My reflection includes my award photographs and describes the responsibility I attach to it. Promotional scale claims in the original caption are not presented here as independently verified results.",
+    "article": "aflca-2025-award-gratitude-and-african-ai-leadership"
+  }
 ]

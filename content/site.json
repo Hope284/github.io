@@ -8,19 +8,56 @@
   "personal_email": "anzoloahope@gmail.com",
   "phone": "+2347082865712",
   "social": [
-    ["LinkedIn", "https://www.linkedin.com/in/hope-anzolo/"],
-    ["GitHub", "https://github.com/Hope284"],
-    ["Hugging Face", "https://huggingface.co/ECHUKU"],
-    ["Sessionize", "https://sessionize.com/anzolohope/"],
-    ["about.me", "https://about.me/anzolo"],
-    ["WordPress.org", "https://profiles.wordpress.org/anzolohope/"],
-    ["ECHUKU on LinkedIn", "https://ng.linkedin.com/company/echuku"]
+    [
+      "LinkedIn",
+      "https://www.linkedin.com/in/hope-anzolo/"
+    ],
+    [
+      "GitHub",
+      "https://github.com/Hope284"
+    ],
+    [
+      "Hugging Face",
+      "https://huggingface.co/ECHUKU"
+    ],
+    [
+      "Sessionize",
+      "https://sessionize.com/anzolohope/"
+    ],
+    [
+      "about.me",
+      "https://about.me/anzolo"
+    ],
+    [
+      "WordPress.org",
+      "https://profiles.wordpress.org/anzolohope/"
+    ],
+    [
+      "ECHUKU on LinkedIn",
+      "https://ng.linkedin.com/company/echuku"
+    ]
   ],
   "directories": [
-    ["Destinali", "https://destinali.com/lagos/digital-agencies-tech/anzolo-kpazhi-hope-lagos"],
-    ["NigeriaPhoneBook", "https://nigeriaphonebook.com/business/anzolo-hope-website-design"],
-    ["ProvenExpert", "https://www.provenexpert.com/en-us/anzolo-kpazhi-hope/"],
-    ["Wellfound · GlemVNT", "https://wellfound.com/company/glemvnt"],
-    ["AITNT · DZEVA", "https://m.aitntnews.com/aiProductDetail.html?productId=19653"]
-  ]
+    [
+      "Destinali",
+      "https://destinali.com/lagos/digital-agencies-tech/anzolo-kpazhi-hope-lagos"
+    ],
+    [
+      "NigeriaPhoneBook",
+      "https://nigeriaphonebook.com/business/anzolo-hope-website-design"
+    ],
+    [
+      "ProvenExpert",
+      "https://www.provenexpert.com/en-us/anzolo-kpazhi-hope/"
+    ],
+    [
+      "Wellfound · GlemVNT",
+      "https://wellfound.com/company/glemvnt"
+    ],
+    [
+      "AITNT · DZEVA",
+      "https://m.aitntnews.com/aiProductDetail.html?productId=19653"
+    ]
+  ],
+  "award": "Outstanding Entrepreneur of the Year Award — Africa Future Leadership Conference & Awards 10.0 (2025)"
 }
